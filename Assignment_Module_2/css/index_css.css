@@ -1,0 +1,100 @@
+body {
+	font-family: Arial;
+}
+h1 {
+	font-size: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 2px black solid;
+	float: right;
+}
+
+p {
+	padding-top: 20px;
+}
+
+header {
+	font-size: large;
+	margin-bottom: 20px;
+}
+
+
+
+div > div {
+	font-size: 100%;
+	background-color: green;
+	border: 2px blue solid;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.Players {
+	border: 2px black solid;
+}
+
+.first {
+	background-color: blue;
+}
+
+.second {
+	background-color: gray;
+}
+
+.third {
+	background-color: red;
+}
+
+.Players {
+	width: 100%;
+}
+
+
+/*** for mobiles ***/
+@media (max-width: 767px) {
+	.tensaxp-a1, .tensaxp-a2, .tensaxp-a3 {
+		float: left;
+		border: 1px black;
+	}
+	.tensaxp-a1 {
+		width: 100%;
+	}
+	.tensaxp-a2 {
+		width: 100%;
+	}
+	.tensaxp-a3 {
+		width: 100%;
+	}
+}
+
+/*** for tablets ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.tensaxp-b1, .tensaxp-b2, .tensaxp-b3 {
+			float: left;
+	}
+	.tensaxp-b1 {
+		width: 50%;
+	}
+	.tensaxp-b2 {
+		width: 50%;
+	}
+	.tensaxp-b3 {
+		width: 100%;
+	}
+}
+
+/*** for desktop ***/
+@media (min-width: 992px) {
+	.tensaxp-c1, .tensaxp-c2, .tensaxp-c3 {
+		float: left;
+		border: 1px black;
+	}
+	.tensaxp-c1 {
+		width: 33.3%;
+	}
+	.tensaxp-c2 {
+		width: 33.3%;
+	}
+	.tensaxp-c3 {
+		width: 33.3%;
+	}
+}
